@@ -1,0 +1,302 @@
+[
+  {
+    "question": "** What is a common trigger for an acute gouty arthritis attack?",
+    "reference": "** Consuming binge amounts of alcohol or ingesting large amounts of protein and purine-rich foods (e.g., bacon, salmon, sweetbreads, scallops, turkey).",
+    "prediction": " Based on the provided context, which includes a table with information about gouty arthritis and an image of a person experiencing pain from an acute gouty arthritis attack, it appears that a common trigger for an acute gouty arthritis attack is consuming foods high in purines. Purines are substances found in certain foods, such as red meat, seafood, and some vegetables like spinach and mushrooms. When the body breaks down purines, uric acid is produced, which can then form crystals in the joints, leading to inflammation and pain characteristic of an acute gouty arthritis attack. ",
+    "bleu": 0.01428219338113233
+  },
+  {
+    "question": "** What is the primary complication of tophi in patients with gout?",
+    "reference": "** Pain, soft tissue damage, and deformity, which can also lead to joint destruction and nerve compression syndromes such as carpal tunnel syndrome.",
+    "prediction": " The primary complication of tophi in patients with gout is joint damage and destruction. Tophi are accumulations of uric acid crystals in the joints, which can lead to inflammation, pain, and reduced mobility. Over time, the constant presence of these crystals can cause damage to the surrounding cartilage and bone, leading to chronic joint pain and disability. ",
+    "bleu": 0.0662266178532522
+  },
+  {
+    "question": "** How can one definitively diagnose gouty arthritis?",
+    "reference": "** By examining aspirated synovial fluid from an inflamed joint and revealing needle-shaped and negatively birefringent monosodium urate crystals inside PMN cells by polarizing microscopy.",
+    "prediction": " Gouty arthritis is a type of arthritis that occurs when uric acid crystals accumulate in the joints. To definitively diagnose gouty arthritis, a healthcare provider will typically consider several factors such as the patient's medical history, physical examination, and laboratory tests.\n\nDuring the physical examination, the healthcare provider may examine the affected joint for signs of inflammation, such as redness, warmth, swelling, or tenderness. They may also check for any joint deformity or damage that could be associated with gouty arthritis.\n\nLaboratory tests can help confirm the diagnosis of gouty arthritis. One common test used to diagnose gout is a joint aspiration, which involves removing fluid from the affected joint and analyzing it for the presence of uric acid crystals. Other laboratory tests that may be ordered include blood tests to measure serum uric acid levels and imaging studies such as X-rays or CT scans to assess any joint damage.\n\nIn addition to these diagnostic measures, the healthcare provider may also consider other factors such as the patient's age, sex, family history, and lifestyle habits that could contribute to their risk of developing gouty arthritis. By taking all of these factors into account, a healthcare provider can make a definitive diagnosis of gouty arthritis. ",
+    "bleu": 0.01838657828382306
+  },
+  {
+    "question": "What is a common oral ulcer manifestation in Reiter's syndrome?",
+    "reference": "Painless oral ulcers commonly located upon the palate or dorsum of the tongue with irregular border",
+    "prediction": " A common oral ulcer manifestation in Reiter's syndrome is the presence of recurrent, painful ulcers in the mouth and lips. These ulcers can occur on the tongue, gums, palate, or lips and may be accompanied by other symptoms such as joint pain, urethral discharge, and conjunctivitis. The exact cause of Reiter's syndrome is not known, but it is believed to be an autoimmune disorder that affects multiple organs in the body. ",
+    "bleu": 0.022685000345803227
+  },
+  {
+    "question": "Which autoimmune disease has an increased risk for coronary artery disease when treated with steroids?",
+    "reference": "Systemic Lupus Erythematosus (SLE)",
+    "prediction": " Based on the provided context, it is not possible to definitively answer the question. The image shows a table listing various diseases and their association with coronary artery disease, but there is no information about which autoimmune disease has an increased risk for coronary artery disease when treated with steroids. The text does mention that steroids can increase the risk of cardiovascular events in patients with rheumatoid arthritis, but it does not provide information about other autoimmune diseases. Without additional information, I cannot provide a definitive answer to the question. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is a possible cause of dyspnea in Sj\u00f6gren's syndrome?",
+    "reference": "Recurrent pulmonary infections",
+    "prediction": " Based on the provided context, one possible cause of dyspnea in Sj\u00f6gren's syndrome could be interstitial lung disease (ILD). ILD is a common complication of Sj\u00f6gren's syndrome and can lead to scarring and inflammation in the lungs. This can result in shortness of breath or dyspnea, especially during physical activity or exertion. Other possible causes of dyspnea in Sj\u00f6gren's syndrome include pulmonary hypertension, pneumonia, and pleurisy. However, without further information or diagnostic testing, it is difficult to pinpoint the exact cause of dyspnea in a specific individual with Sj\u00f6gren's syndrome. ",
+    "bleu": 0.007495158379261608
+  },
+  {
+    "question": "What is the most common systemic vasculitis in children?",
+    "reference": "Henoch-Sch\u00f6nlein purpura (HSP)",
+    "prediction": " The most common systemic vasculitis in children is juvenile idiopathic arthritis (JIA), also known as juvenile rheumatoid arthritis (JRA). JIA is a chronic autoimmune disorder characterized by inflammation of the synovium, which is the membrane that lines the joints. The condition can affect multiple joints and other organs, leading to symptoms such as joint pain, stiffness, and swelling.\n\nWhile JIA is not considered a vasculitis in the strict sense, it can cause inflammation of blood vessels, which can lead to complications such as aneurysms or inflammatory bowel disease. Other systemic vasculitides that can affect children include Kawasaki disease, Beh\u00e7et's disease, and systemic lupus erythematosus (SLE).\n\nIt is important to note that the diagnosis of JIA and other systemic vasculitides requires a thorough evaluation by a healthcare provider. Treatment for these conditions typically involves a combination of medication, physical therapy, and lifestyle modifications to manage symptoms and prevent long-term complications. ",
+    "bleu": 0
+  },
+  {
+    "question": "What are the typical clinical features of Henoch-Sch\u00f6nlein purpura (HSP)?",
+    "reference": "Purpura, polyarthritis, abdominal pain, hematuria, and proteinuria; rarely, pulmonary disease and peripheral neuropathy",
+    "prediction": " Henoch-Sch\u00f6nlein purpura (HSP) is a type of vasculitis that affects children and young adults. The typical clinical features of HSP include:\n\n1. Purpura: This is the most common symptom of HSP. It appears as small, red or purple spots or patches on the skin and mucous membranes. These spots can be found anywhere on the body but are commonly seen on the legs, buttocks, arms, and neck.\n2. Joint pain: Many people with HSP experience joint pain, particularly in the knees, ankles, wrists, or elbows. The pain is usually mild to moderate and lasts for a few days to several weeks.\n3. Gastrointestinal symptoms: Some people with HSP may experience abdominal pain, nausea, vomiting, or diarrhea. These symptoms are thought to be caused by inflammation in the gastrointestinal tract.\n4. Nephritis: In some cases, HSP can cause kidney inflammation (nephritis). This can lead to proteinuria, hematuria, and other complications.\n5. Rash: Some people with HSP may develop a rash or hives on their skin.\n6. Fever: A fever is common in the early stages of HSP.\n\nIt's important to note that not everyone with HSP will experience all of these symptoms, and some people may have additional symptoms not listed here. If you suspect that you or someone you know has HSP, it's important to speak with a healthcare provider for an evaluation and proper diagnosis. ",
+    "bleu": 0.01402343873038904
+  },
+  {
+    "question": "What is cutaneous leukocytoclastic vasculitis?",
+    "reference": "A type of vasculitis within the small to medium-sized vessels in the skin, characterized by fibrinoid necrosis of the vessel walls with infiltration of polymorphonuclear leukocytes",
+    "prediction": " Cutaneous leukocytoclastic vasculitis is a type of vasculitis that affects the blood vessels in the skin. It is characterized by inflammation and damage to the small blood vessels, which can lead to the formation of small, red, or purple lesions on the skin. These lesions are often accompanied by symptoms such as itching, burning, or pain.\n\nCutaneous leukocytoclastic vasculitis is caused by an overactive immune response, which leads to the recruitment of white blood cells (leukocytes) to the affected blood vessels. This can cause further damage to the blood vessels and lead to scarring or other complications.\n\nThe exact cause of cutaneous leukocytoclastic vasculitis is not known, but it can be triggered by a variety of factors, such as infections, medications, or underlying medical conditions. Treatment typically involves managing symptoms with topical or systemic medications and addressing any underlying causes. ",
+    "bleu": 0.06800640801679173
+  },
+  {
+    "question": "What are the key articular and non-articular structures involved in arthritis?",
+    "reference": "The articular structures include synovium, synovial fluid, articular cartilage, intra-articular ligaments, joint capsule, and juxta-articular bone. Non-articular (periarticular) structures include supportive extra-articular ligaments, tendons, bursae, muscle, fascia, bone, nerve, and overlying skin.",
+    "prediction": " The image shows a cross section of a joint, which includes both articular and non-articular structures. The articular structures include the cartilage, which covers the ends of bones and allows for smooth movement between joints; the synovial membrane, which produces synovial fluid that lubricates the joint; and the ligaments, which provide stability and support to the joint.\n\nThe non-articular structures include the bone, which forms the framework of the joint; the muscle, which provides strength and movement; and the tendon, which connects the muscle to the bone. These structures are all important for the proper functioning of a joint and can be affected by arthritis. ",
+    "bleu": 0.07655590023509527
+  },
+  {
+    "question": "How can you distinguish between inflammatory and non-inflammatory arthritis?",
+    "reference": "Inflammatory arthritis is characterized by joint stiffness and pain, morning stiffness lasting more than 60 minutes, redness, warmth, pain, and swelling of painful joints. Non-inflammatory arthritis typically lacks these signs and may have constitutional symptoms such as prolonged morning stiffness, fatigue, fever, weight loss. Laboratory abnormalities may include elevated ESR and/or CRP, thrombocytosis, anemia of chronic disease, and hypoalbuminemia.",
+    "prediction": " Inflammatory arthritis is characterized by symptoms such as joint pain, swelling, redness, warmth, and stiffness. Non-inflammatory arthritis, on the other hand, may cause joint pain and stiffness but does not typically involve inflammation.\n\nTo distinguish between inflammatory and non-inflammatory arthritis, a healthcare provider will consider several factors such as the patient's history, physical examination findings, laboratory test results, and imaging studies.\n\nLaboratory tests that may be used to diagnose inflammatory arthritis include erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP). Elevated levels of these markers can indicate the presence of inflammation in the body.\n\nImaging studies such as X-rays, MRI, or CT scans may also be used to diagnose arthritis. Inflammatory arthritis may show signs of joint damage and bone loss on imaging studies, while non-inflammatory arthritis typically does not.\n\nIn addition to laboratory tests and imaging studies, a healthcare provider may also consider the patient's response to treatment with anti-inflammatory medications. If a patient experiences improvement in their symptoms after taking anti-inflammatory medication, it is more likely that they have inflammatory arthritis.\n\nOverall, the diagnosis of inflammatory versus non-inflammatory arthritis requires careful consideration of several factors and may involve a combination of physical examination findings, laboratory test results, imaging studies, and treatment responses. ",
+    "bleu": 0.08074558389805575
+  },
+  {
+    "question": "What are the differences between monoarthritis, oligoarthritis, and polyarthritis?",
+    "reference": "Monoarthritis involves one joint only, while oligoarthritis affects two to four joints. Polyarthritis involves five or more joints. Non-inflammatory causes of monoarthritis include bursitis, tendinitis, gout, pseudogout, hemarthrosis, and reactive arthritis. Inflammatory causes may include rheumatoid arthritis, spondyloarthropathy, and viral infections.",
+    "prediction": " Monoarthritis refers to inflammation or damage affecting a single joint. Oligoarthritis refers to inflammation or damage affecting 2-4 joints, while polyarthritis refers to inflammation or damage affecting 5 or more joints. These terms are commonly used in the context of rheumatoid arthritis (RA), a chronic autoimmune disorder that causes joint pain, stiffness, and swelling. In RA, monoarthritis typically presents as a single joint involvement, oligoarthritis as two or three joints involvement, while polyarthritis as four or more joints involvement. ",
+    "bleu": 0.06977498959044454
+  },
+  {
+    "question": "What are the main cells that secrete CSF, PDGF, and IGF?",
+    "reference": "Lymphocytes, macrophages, fibroblasts, and endothelial cells",
+    "prediction": " Based on the provided image, the main cells that secrete CSF, PDGF, and IGF are astrocytes. ",
+    "bleu": 0.0480675628866961
+  },
+  {
+    "question": "How is RA typically categorized after diagnosis?",
+    "reference": "Early disease (no clinical evidence of joint damage or radiographic signs of cartilage loss or bone erosion), progressive disease (continuous disease activity despite treatment), or late disease (definite joint damage with all its attendant complications)",
+    "prediction": " After diagnosis, Rheumatoid Arthritis (RA) is typically categorized into one of four categories based on disease activity and joint involvement. These categories are:\n\n1. Early RA: This category includes patients who have been diagnosed with RA within the past 6 to 12 months. It is characterized by mild to moderate joint involvement, and disease activity may be high. Treatment for early RA typically involves a combination of medication and physical therapy.\n2. Established RA: This category includes patients who have had RA for more than 12 months. It is characterized by moderate to severe joint involvement, and disease activity may be high or low. Treatment for established RA typically involves a combination of medication and physical therapy, as well as regular monitoring of disease activity.\n3. Severe RA: This category includes patients who have experienced significant joint damage due to their RA. It is characterized by severe joint involvement, and disease activity may be high or low. Treatment for severe RA typically involves a combination of medication, physical therapy, and other interventions such as surgery.\n4. Inactive RA: This category includes patients who have experienced a remission of their RA symptoms. It is characterized by little to no joint involvement, and disease activity may be low or undetectable. Treatment for inactive RA typically involves regular monitoring of disease activity to prevent relapse. ",
+    "bleu": 0.024727943701539246
+  },
+  {
+    "question": "What is a characteristic feature of the early presentation of RA in some patients?",
+    "reference": "Gradual or insidious onset, affecting small peripheral joints such as wrists, MCP, PIP, ankles, or MTPs; usually symmetric with considerable morning stiffness and poor grip strength",
+    "prediction": " Based on the provided context, one characteristic feature of the early presentation of Rheumatoid Arthritis (RA) in some patients is inflammation and swelling of the joints. This can be seen in the images where the hands and feet appear swollen and red. The presence of inflammation and swelling are common symptoms of RA, which is an autoimmune disorder that affects the joints and can also affect other parts of the body. ",
+    "bleu": 0.01309719105621624
+  },
+  {
+    "question": "What is the specificity of Anti-ds DNA antibody?",
+    "reference": "95% specific to SLE",
+    "prediction": " The image you provided shows a Western blot assay for anti-dsDNA antibodies. This type of assay is used to detect the presence of antibodies against double-stranded DNA (dsDNA) in a sample, which can be indicative of an autoimmune disorder such as systemic lupus erythematosus (SLE).\n\nThe specificity of anti-dsDNA antibody refers to its ability to bind specifically to dsDNA and not to other types of DNA or molecules. In the context of a Western blot assay, this means that the antibodies in the sample will only bind to dsDNA present on the membrane, and not to other proteins or molecules that may be present in the sample.\n\nIn order to determine the specificity of anti-dsDNA antibody, it is important to use a control sample that contains known amounts of dsDNA. This allows for the identification of any non-specific binding that may occur, and helps to ensure that the antibodies are specifically detecting dsDNA.\n\nOverall, the specificity of anti-dsDNA antibody is an important consideration in the diagnosis and management of autoimmune disorders such as SLE. ",
+    "bleu": 0.004139876788743048
+  },
+  {
+    "question": "What disease association does the anti-ENA antibody have with Raynaud's phenomenon?",
+    "reference": "RNP: Generally associated with Raynaud\u2019s phenomenon",
+    "prediction": " The presence of anti-ENA antibodies is associated with Raynaud's phenomenon. Anti-ENA antibodies are found in people with connective tissue disorders, such as systemic lupus erythematosus (SLE) and scleroderma. Raynaud's phenomenon is a common symptom of these conditions. It occurs when the blood vessels in the fingers or toes narrow, reducing blood flow to the extremities and causing them to feel cold and numb. In some cases, Raynaud's phenomenon can also be caused by other factors, such as exposure to cold temperatures or stress. However, the presence of anti-ENA antibodies is a strong indicator that the Raynaud's phenomenon is related to an underlying connective tissue disorder. ",
+    "bleu": 0.0165748386032949
+  },
+  {
+    "question": "In which autoimmune diseases is IgM rheumatoid factor commonly found in low titers?",
+    "reference": "SLE, Sj\u00f6gren's syndrome; or chronic pulmonary, hepatic, or renal diseases",
+    "prediction": " Based on the provided context and table, IgM rheumatoid factor is commonly found in low titers in the following autoimmune diseases:\n\n* Rheumatoid arthritis (RA)\n* Systemic lupus erythematosus (SLE)\n* Sjogren's syndrome\n* Mixed connective tissue disease (MCTD)\n* Psoriatic arthritis (PsA)\n* Ankylosing spondylitis (AS)\n* Behcet's disease ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the purpose of providing recommended strategies for monitoring side effects?",
+    "reference": "To guide healthcare professionals in managing potential complications associated with treatment",
+    "prediction": " The purpose of providing recommended strategies for monitoring side effects is to ensure patient safety and well-being. By closely monitoring patients for potential side effects, healthcare providers can identify and address any issues early on, reducing the likelihood of serious complications or long-term harm. This also helps to improve the overall effectiveness of treatments and medications, as side effects can sometimes limit their efficacy or cause patients to stop taking them altogether. ",
+    "bleu": 0.01584228703905162
+  },
+  {
+    "question": "Who is the author or speaker mentioned in this context?",
+    "reference": "Lin Shi-Chang, a doctor at \u570b\u6cf0\u7d9c\u5408\u91ab\u9662\u98a8\u6fd5\u514d\u75ab\u79d1 (Taiwan's Taichung Veterans General Hospital Rheumatology Department)",
+    "prediction": " The text does not provide enough information to determine who the author or speaker is. There are no names given in the provided context. ",
+    "bleu": 0
+  },
+  {
+    "question": "What can be found on the next page according to the text?",
+    "reference": "Recommended strategies for monitoring side effects",
+    "prediction": " Based on the text provided, it is not possible for me to determine what will be found on the next page. The image shows a table with several columns and rows, but there is no indication of the contents of the next page in the visible portion of the text. Please provide more context or clarify your question. ",
+    "bleu": 0.01108243735564862
+  },
+  {
+    "question": "What is the classification criteria for scleroderma?",
+    "reference": "One major criterion (scleroderma proximal to MCP or MTP joints) or two minor criteria.",
+    "prediction": " The classification criteria for scleroderama are based on a combination of clinical features and autoantibodies. The most commonly used criteria are the American College of Rheumatology (ACR) criteria, which require the presence of at least three out of eight specified clinical features and either positive anti-centromere antibody (ACA) or positive anti-topoisomerase I antibody (ATA).\n\nThe clinical features included in the ACR criteria are:\n\n1. Raynaud's phenomenon\n2. Sclerodactyla (thickening of skin and subcutaneous tissue)\n3. Calcinosis cutis (calcium deposits under the skin)\n4. Telangiectasia (widened small blood vessels on the skin)\n5. Digital ulcers or pitting scars on fingers or toes\n6. Nailfold capillaroscopy abnormalities\n7. Pulmonary arterial hypertension\n8. Restrictive lung disease\n\nOther classification criteria for scleroderma include the European League Against Rheumatism (EULAR) criteria, which require the presence of at least two out of six specified clinical features and either positive ACA or positive ATA, and the 2013 ACR/EULAR classification criteria, which are based on a combination of clinical features, autoantibodies, and damage to internal organs.\n\nIt's important to note that these criteria are used by healthcare professionals to diagnose scleroderma and may vary depending on the specific context or region. ",
+    "bleu": 0.007537106099848421
+  },
+  {
+    "question": "What are some common clinical manifestations of Raynaud's phenomenon in patients with scleroderma?",
+    "reference": "Blanching, cyanosis and hyperemia with numbness and pain; triggered by cold exposure and emotion; abnormal capillary loops by nailfold capillaroscopy.",
+    "prediction": " Raynaud's phenomenon is a common symptom in patients with scleroderma. It is characterized by the narrowing of small blood vessels, which can cause color changes in the fingers or toes. In people with scleroderema, Raynaud's phenomenon is often more severe and can be associated with other symptoms such as digital ulcers, puffy fingers, and calcinosis.\n\nClinical manifestations of Raynaud's phenomenon in patients with scleroderma may include:\n\n1. Color changes: The fingers or toes may turn white (pallor), blue (cyanosis), or red (rubor) when exposed to cold temperatures or stress.\n2. Digital ulcers: These are sores that develop on the fingertips or toes, often as a result of Raynaud's phenomenon. They can be painful and may take several weeks to heal.\n3. Puffy fingers: Some patients with scleroderema may experience swelling in their fingers, which can be due to inflammation or fluid accumulation.\n4. Calcinosis: This is the deposition of calcium in the skin or other tissues, and it can occur as a result of Raynaud's phenomenon. It usually appears as white, hard deposits on the fingers or toes.\n5. Numbness or tingling: Some patients may experience numbness or tingling sensations in their fingers or toes, which can be due to reduced blood flow.\n6. Cold intolerance: Patients with Raynaud's phenomenon may have difficulty tolerating cold temperatures, as it can worsen the symptoms of Raynaud's phenomenon.\n\nIt is important for patients with scleroderma and Raynaud's phenomenon to work closely with their healthcare provider to manage their symptoms and prevent complications. ",
+    "bleu": 0.00790847640324508
+  },
+  {
+    "question": "What is the association between limited and diffuse types of scleroderma in terms of pulmonary involvement?",
+    "reference": "Limited scleroderma is associated with pulmonary hypertension, while diffuse scleroderma is associated with interstitial lung disease.",
+    "prediction": " Based on the information provided in the image, it appears that there is a higher prevalence of pulmonary involvement in patients with limited scleroderama compared to those with diffuse scleroderma. This suggests that limited scleroderma may be more strongly associated with pulmonary involvement than diffuse scleroderma. ",
+    "bleu": 0.0822391939658615
+  },
+  {
+    "question": "What is reactive arthritis also known as?",
+    "reference": "Reiter's Syndrome",
+    "prediction": " Reactive arthritis is also known as reiter's syndrome. ",
+    "bleu": 0
+  },
+  {
+    "question": "What are the typical manifestations of peripheral arthritis syndrome in patients with reactive arthritis?",
+    "reference": "Asymmetric, acute onset, additive, oligoarticular arthritis in the lower extremity that occurs one month after infection; joint tenderness, stiffness and restricted range of motion",
+    "prediction": " Peripheral arthritis syndrome is a common complication of reactive arthritis. The typical manifestations of this condition include joint pain, swelling, and stiffness, which are often accompanied by redness and warmth of the affected joints. These symptoms can occur in any joint, but they are most commonly found in the knees, ankles, wrists, and fingers. In addition to joint symptoms, patients with reactive arthritis may also experience other symptoms such as conjunctivitis, urethral discharge, and skin lesions. The specific symptoms and their severity can vary from person to person, depending on the underlying cause of the reactive arthritis. ",
+    "bleu": 0.025383654128340472
+  },
+  {
+    "question": "What is another manifestation of reactive arthritis characterized by inflammation of ligaments and tendons at their insertion into bone?",
+    "reference": "Enthesopathy syndrome (enthesitis)",
+    "prediction": " Another manifestation of reactive arthritis is enthesitis. Enthesitis is the inflammation of ligaments and tendons at their insertion into bone. This can cause pain, stiffness, and swelling in the affected joints or areas of the body. It is often associated with other autoimmune conditions such as psoriasis, ankylosing spondylitis, and inflammatory bowel disease. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this medical condition characterized by a dark discoloration of the skin in patches, often appearing as irregularly shaped spots?",
+    "reference": "Melanoma",
+    "prediction": " The medical condition you are referring to is called \"melasma.\" ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this structure?",
+    "reference": "Hippocampus",
+    "prediction": " The name of this structure is a \"truss bridge.\" ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the most common cause of this condition?",
+    "reference": "Age and genetics are the two most common factors that contribute to the development of this condition.",
+    "prediction": " The most common cause of this condition is a genetic mutation. ",
+    "bleu": 0.15630063833736046
+  },
+  {
+    "question": "What is the most common cause of lower back pain?",
+    "reference": "Musculoskeletal strain or sprain",
+    "prediction": " Based on the given context, it is not possible to determine the most common cause of lower back pain. The image shows a person with lower back pain, but there is no information provided about the cause or diagnosis of this condition. ",
+    "bleu": 0.014732752112269775
+  },
+  {
+    "question": "What is the most common type of cancer in this image?",
+    "reference": "Breast cancer",
+    "prediction": " The most common type of cancer in this image is breast cancer. This is evident from the table provided, which shows that breast cancer accounts for 30% of all cancers in women. Additionally, the image depicts a woman undergoing treatment for breast cancer, further emphasizing its prevalence. ",
+    "bleu": 0.013344762372567693
+  },
+  {
+    "question": "What is the most common cause of headache in adults?",
+    "reference": "Migraine",
+    "prediction": " Based on the provided context, it appears that the most common cause of headache in adults is tension headaches. This type of headache is often caused by muscle tension or spasm in the neck and scalp muscles. It can also be related to stress or anxiety. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the most common type of skin cancer in the United States?",
+    "reference": "Basal cell carcinoma",
+    "prediction": " The most common type of skin cancer in the United States is basal cell carcinoma. ",
+    "bleu": 0.03591027310966287
+  },
+  {
+    "question": "What is the name of the structure labeled 'B' in the image?",
+    "reference": "Spinal cord",
+    "prediction": " The name of the structure labeled 'B' in the image is a bridge. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the most common type of cancer in the United States?",
+    "reference": "Skin Cancer",
+    "prediction": " Based on the information provided in the image, the most common type of cancer in the United States is breast cancer. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the function of the spleen in the human body?",
+    "reference": "The spleen is an organ that plays a crucial role in the immune system. It filters the blood and removes damaged or old red blood cells. Additionally, it helps to recycle iron from these cells.",
+    "prediction": " The spleen is an organ that plays a vital role in maintaining the health and well-being of the human body. It serves several important functions, including:\n\n1. Filtration of blood: The spleen filters the blood to remove old or damaged red blood cells, white blood cells, and platelets. This process helps to prevent the buildup of these cells in the bloodstream, which can lead to various health problems.\n2. Production of red blood cells: The spleen produces new red blood cells to replace those that have been filtered out. This process is essential for maintaining adequate levels of hemoglobin and oxygen-carrying capacity in the blood.\n3. Storage of iron and other nutrients: The spleen stores iron, which is an essential mineral that plays a crucial role in the production of red blood cells. It also stores other important nutrients such as vitamins and minerals.\n4. Immune function: The spleen is part of the immune system and helps to fight off infections by producing white blood cells and antibodies. It also acts as a filter for foreign substances, such as bacteria and viruses, that may enter the body through the bloodstream.\n5. Hormone production: The spleen produces several hormones, including erythropoietin (EPO), which stimulates the production of red blood cells in response to low oxygen levels in the body.\n\nIn summary, the spleen is a vital organ that helps to maintain the health and well-being of the human body by filtering the blood, producing red blood cells, storing iron and other nutrients, supporting immune function, and producing hormones. ",
+    "bleu": 0.08505834573390388
+  },
+  {
+    "question": "What is the name of this medical condition where the heart muscle becomes abnormally thick or rigid?",
+    "reference": "Hypertrophic cardiomyopathy",
+    "prediction": " The medical condition you are referring to is called \"hypertrophic cardiomyopathy.\" This condition occurs when the heart muscle becomes abnormally thick or rigid, which can impair its ability to pump blood effectively. It is often associated with high blood pressure and can lead to symptoms such as shortness of breath, chest pain, and fatigue. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of the organ in this image?",
+    "reference": "Liver",
+    "prediction": " The image shows a close-up view of an animal's internal organs. However, without more information or a clearer image, it is not possible to accurately identify the specific organ shown in the image. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this part of the human anatomy?",
+    "reference": "Kidney",
+    "prediction": " The image you've provided appears to be a diagram of the human circulatory system. Specifically, it shows the heart and the major blood vessels that originate from it. However, without more context or information about the specific part of the human anatomy you are referring to, I cannot provide an answer to your question. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this condition characterized by an opening in the diaphragm?",
+    "reference": "Hiatal Hernia",
+    "prediction": " The name of this condition is \"hiatus hernia.\" ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of the condition shown in this image?",
+    "reference": "Melanoma",
+    "prediction": " The image shows a person with a visible deformity or disfigurement. However, without any additional information, it's difficult to determine the exact name of the condition shown in the image. It could be a congenital condition, an injury, or another type of disorder that affects the body's shape and appearance. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the most common cause of headaches?",
+    "reference": "Tension headaches are the most common type of headache.",
+    "prediction": " Based on the information provided in the image, it appears that the most common cause of headaches is muscle tension or strain. The table shows that out of 100 people surveyed, 54 reported muscle tension or strain as the cause of their headaches. This suggests that muscle tension or strain is a significant factor contributing to headaches in this population. However, it's important to note that there are many possible causes of headaches, and what may be the most common cause for one person may not be the same for another. ",
+    "bleu": 0.038277950117547636
+  },
+  {
+    "question": "What is the most common type of medical imaging?",
+    "reference": "X-rays",
+    "prediction": " The most common type of medical imaging is X-ray. This is a widely used diagnostic tool in healthcare settings that allows doctors to visualize and diagnose various conditions such as fractures, dislocations, and other injuries or diseases. X-rays are particularly useful for examining bones, joints, and the chest cavity. ",
+    "bleu": 0.012863457936718939
+  },
+  {
+    "question": "What is the medical term for the inflammation of the mucous membrane that lines the respiratory tract?",
+    "reference": "Bronchitis",
+    "prediction": " The medical term for the inflammation of the mucous membrane that lines the respiratory tract is \"rhinitis.\" ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this medical condition characterized by an inflammation of the blood vessels caused by a buildup of plaque inside them?",
+    "reference": "Atherosclerosis",
+    "prediction": " The medical condition you are referring to is called \"atherosclerosis.\" It is characterized by an inflammation of the blood vessels caused by a buildup of plaque inside them. Atherosclerosis can lead to various complications, including heart attacks and strokes. ",
+    "bleu": 0.015722718904576844
+  },
+  {
+    "question": "What is the name of this medical instrument used in medical procedures?",
+    "reference": "Scalpel",
+    "prediction": " The image shows a medical instrument that appears to be a scalpel. It is commonly used in medical procedures for cutting and dissecting tissue. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the name of this common viral infection that causes red, painful sores on or around the mouth?",
+    "reference": "Herpes Simplex Virus",
+    "prediction": " The common viral infection that causes red, painful sores on or around the mouth is called Herpes Simplex Virus (HSV). ",
+    "bleu": 0.12565617248750868
+  },
+  {
+    "question": "What type of cells are visible in this image?",
+    "reference": "Neutrophils",
+    "prediction": " The image you provided appears to be a microscopic view of some cells. However, without more specific information or a higher resolution image, it is difficult to determine the exact type of cells present in the image. ",
+    "bleu": 0
+  },
+  {
+    "question": "What is the function of the cornea in the human eye?",
+    "reference": "The cornea functions as a transparent barrier that protects the eye, helps to focus light onto the retina, and regulates the amount of light entering the eye.",
+    "prediction": " The cornea is a transparent and dome-shaped structure that covers the front part of the eye. It serves several important functions in the human eye:\n\n1. Protection: The cornea acts as a protective barrier for the eye, shielding it from foreign objects, bacteria, and viruses.\n2. Refraction: The cornea has a curved surface that helps to bend light entering the eye, which is necessary for clear vision.\n3. Focus: The cornea, along with the lens, helps to focus light on the retina, which is responsible for sending visual signals to the brain.\n4. UV Protection: The cornea absorbs most of the ultraviolet (UV) radiation that enters the eye, protecting the eye from harmful effects of UV rays.\n5. Tear Film Production: The cornea plays a role in the production of tears, which helps to keep the eye moist and comfortable.\n\nOverall, the cornea is an essential component of the human eye, responsible for protecting it, allowing for clear vision, and providing important functions related to focus, UV protection, and tear film production. ",
+    "bleu": 0.09274659661977103
+  }
+]

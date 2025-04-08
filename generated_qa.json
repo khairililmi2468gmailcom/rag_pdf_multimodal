@@ -1,0 +1,202 @@
+[
+  {
+    "question": "** What is a common trigger for an acute gouty arthritis attack?",
+    "answer": "** Consuming binge amounts of alcohol or ingesting large amounts of protein and purine-rich foods (e.g., bacon, salmon, sweetbreads, scallops, turkey)."
+  },
+  {
+    "question": "** What is the primary complication of tophi in patients with gout?",
+    "answer": "** Pain, soft tissue damage, and deformity, which can also lead to joint destruction and nerve compression syndromes such as carpal tunnel syndrome."
+  },
+  {
+    "question": "** How can one definitively diagnose gouty arthritis?",
+    "answer": "** By examining aspirated synovial fluid from an inflamed joint and revealing needle-shaped and negatively birefringent monosodium urate crystals inside PMN cells by polarizing microscopy."
+  },
+  {
+    "question": "What is a common oral ulcer manifestation in Reiter's syndrome?",
+    "answer": "Painless oral ulcers commonly located upon the palate or dorsum of the tongue with irregular border"
+  },
+  {
+    "question": "Which autoimmune disease has an increased risk for coronary artery disease when treated with steroids?",
+    "answer": "Systemic Lupus Erythematosus (SLE)"
+  },
+  {
+    "question": "What is a possible cause of dyspnea in Sj\u00f6gren's syndrome?",
+    "answer": "Recurrent pulmonary infections"
+  },
+  {
+    "question": "What is the most common systemic vasculitis in children?",
+    "answer": "Henoch-Sch\u00f6nlein purpura (HSP)"
+  },
+  {
+    "question": "What are the typical clinical features of Henoch-Sch\u00f6nlein purpura (HSP)?",
+    "answer": "Purpura, polyarthritis, abdominal pain, hematuria, and proteinuria; rarely, pulmonary disease and peripheral neuropathy"
+  },
+  {
+    "question": "What is cutaneous leukocytoclastic vasculitis?",
+    "answer": "A type of vasculitis within the small to medium-sized vessels in the skin, characterized by fibrinoid necrosis of the vessel walls with infiltration of polymorphonuclear leukocytes"
+  },
+  {
+    "question": "What are the key articular and non-articular structures involved in arthritis?",
+    "answer": "The articular structures include synovium, synovial fluid, articular cartilage, intra-articular ligaments, joint capsule, and juxta-articular bone. Non-articular (periarticular) structures include supportive extra-articular ligaments, tendons, bursae, muscle, fascia, bone, nerve, and overlying skin."
+  },
+  {
+    "question": "How can you distinguish between inflammatory and non-inflammatory arthritis?",
+    "answer": "Inflammatory arthritis is characterized by joint stiffness and pain, morning stiffness lasting more than 60 minutes, redness, warmth, pain, and swelling of painful joints. Non-inflammatory arthritis typically lacks these signs and may have constitutional symptoms such as prolonged morning stiffness, fatigue, fever, weight loss. Laboratory abnormalities may include elevated ESR and/or CRP, thrombocytosis, anemia of chronic disease, and hypoalbuminemia."
+  },
+  {
+    "question": "What are the differences between monoarthritis, oligoarthritis, and polyarthritis?",
+    "answer": "Monoarthritis involves one joint only, while oligoarthritis affects two to four joints. Polyarthritis involves five or more joints. Non-inflammatory causes of monoarthritis include bursitis, tendinitis, gout, pseudogout, hemarthrosis, and reactive arthritis. Inflammatory causes may include rheumatoid arthritis, spondyloarthropathy, and viral infections."
+  },
+  {
+    "question": "What are the main cells that secrete CSF, PDGF, and IGF?",
+    "answer": "Lymphocytes, macrophages, fibroblasts, and endothelial cells"
+  },
+  {
+    "question": "How is RA typically categorized after diagnosis?",
+    "answer": "Early disease (no clinical evidence of joint damage or radiographic signs of cartilage loss or bone erosion), progressive disease (continuous disease activity despite treatment), or late disease (definite joint damage with all its attendant complications)"
+  },
+  {
+    "question": "What is a characteristic feature of the early presentation of RA in some patients?",
+    "answer": "Gradual or insidious onset, affecting small peripheral joints such as wrists, MCP, PIP, ankles, or MTPs; usually symmetric with considerable morning stiffness and poor grip strength"
+  },
+  {
+    "question": "What is the specificity of Anti-ds DNA antibody?",
+    "answer": "95% specific to SLE"
+  },
+  {
+    "question": "What disease association does the anti-ENA antibody have with Raynaud's phenomenon?",
+    "answer": "RNP: Generally associated with Raynaud\u2019s phenomenon"
+  },
+  {
+    "question": "In which autoimmune diseases is IgM rheumatoid factor commonly found in low titers?",
+    "answer": "SLE, Sj\u00f6gren's syndrome; or chronic pulmonary, hepatic, or renal diseases"
+  },
+  {
+    "question": "What is the purpose of providing recommended strategies for monitoring side effects?",
+    "answer": "To guide healthcare professionals in managing potential complications associated with treatment"
+  },
+  {
+    "question": "Who is the author or speaker mentioned in this context?",
+    "answer": "Lin Shi-Chang, a doctor at \u570b\u6cf0\u7d9c\u5408\u91ab\u9662\u98a8\u6fd5\u514d\u75ab\u79d1 (Taiwan's Taichung Veterans General Hospital Rheumatology Department)"
+  },
+  {
+    "question": "What can be found on the next page according to the text?",
+    "answer": "Recommended strategies for monitoring side effects"
+  },
+  {
+    "question": "What is the classification criteria for scleroderma?",
+    "answer": "One major criterion (scleroderma proximal to MCP or MTP joints) or two minor criteria."
+  },
+  {
+    "question": "What are some common clinical manifestations of Raynaud's phenomenon in patients with scleroderma?",
+    "answer": "Blanching, cyanosis and hyperemia with numbness and pain; triggered by cold exposure and emotion; abnormal capillary loops by nailfold capillaroscopy."
+  },
+  {
+    "question": "What is the association between limited and diffuse types of scleroderma in terms of pulmonary involvement?",
+    "answer": "Limited scleroderma is associated with pulmonary hypertension, while diffuse scleroderma is associated with interstitial lung disease."
+  },
+  {
+    "question": "What is reactive arthritis also known as?",
+    "answer": "Reiter's Syndrome"
+  },
+  {
+    "question": "What are the typical manifestations of peripheral arthritis syndrome in patients with reactive arthritis?",
+    "answer": "Asymmetric, acute onset, additive, oligoarticular arthritis in the lower extremity that occurs one month after infection; joint tenderness, stiffness and restricted range of motion"
+  },
+  {
+    "question": "What is another manifestation of reactive arthritis characterized by inflammation of ligaments and tendons at their insertion into bone?",
+    "answer": "Enthesopathy syndrome (enthesitis)"
+  },
+  {
+    "question": "What is the name of this medical condition characterized by a dark discoloration of the skin in patches, often appearing as irregularly shaped spots?",
+    "answer": "Melanoma"
+  },
+  {
+    "question": "What is the name of this structure?",
+    "answer": "Hippocampus"
+  },
+  {
+    "question": "What is the most common cause of this condition?",
+    "answer": "Age and genetics are the two most common factors that contribute to the development of this condition."
+  },
+  {
+    "question": "What is the most common cause of lower back pain?",
+    "answer": "Musculoskeletal strain or sprain"
+  },
+  {
+    "question": "What is the most common type of cancer in this image?",
+    "answer": "Breast cancer"
+  },
+  {
+    "question": "What is the most common cause of headache in adults?",
+    "answer": "Migraine"
+  },
+  {
+    "question": "What is the most common type of skin cancer in the United States?",
+    "answer": "Basal cell carcinoma"
+  },
+  {
+    "question": "What is the name of the structure labeled 'B' in the image?",
+    "answer": "Spinal cord"
+  },
+  {
+    "question": "What is the most common type of cancer in the United States?",
+    "answer": "Skin Cancer"
+  },
+  {
+    "question": "What is the function of the spleen in the human body?",
+    "answer": "The spleen is an organ that plays a crucial role in the immune system. It filters the blood and removes damaged or old red blood cells. Additionally, it helps to recycle iron from these cells."
+  },
+  {
+    "question": "What is the name of this medical condition where the heart muscle becomes abnormally thick or rigid?",
+    "answer": "Hypertrophic cardiomyopathy"
+  },
+  {
+    "question": "What is the name of the organ in this image?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the name of this part of the human anatomy?",
+    "answer": "Kidney"
+  },
+  {
+    "question": "What is the name of this condition characterized by an opening in the diaphragm?",
+    "answer": "Hiatal Hernia"
+  },
+  {
+    "question": "What is the name of the condition shown in this image?",
+    "answer": "Melanoma"
+  },
+  {
+    "question": "What is the most common cause of headaches?",
+    "answer": "Tension headaches are the most common type of headache."
+  },
+  {
+    "question": "What is the most common type of medical imaging?",
+    "answer": "X-rays"
+  },
+  {
+    "question": "What is the medical term for the inflammation of the mucous membrane that lines the respiratory tract?",
+    "answer": "Bronchitis"
+  },
+  {
+    "question": "What is the name of this medical condition characterized by an inflammation of the blood vessels caused by a buildup of plaque inside them?",
+    "answer": "Atherosclerosis"
+  },
+  {
+    "question": "What is the name of this medical instrument used in medical procedures?",
+    "answer": "Scalpel"
+  },
+  {
+    "question": "What is the name of this common viral infection that causes red, painful sores on or around the mouth?",
+    "answer": "Herpes Simplex Virus"
+  },
+  {
+    "question": "What type of cells are visible in this image?",
+    "answer": "Neutrophils"
+  },
+  {
+    "question": "What is the function of the cornea in the human eye?",
+    "answer": "The cornea functions as a transparent barrier that protects the eye, helps to focus light onto the retina, and regulates the amount of light entering the eye."
+  }
+]
