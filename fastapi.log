@@ -1,0 +1,45 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/nas-data/alim_workspace/deepseek/rag_pdf']
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     Started reloader process [3682787] using WatchFiles
+/nas-data/alim_workspace/deepseek/rag_pdf/app.py:6: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+/nas-data/alim_workspace/deepseek/rag_pdf/app.py:8: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/nas-data/alim_workspace/deepseek/rag_pdf/app.py:22: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+/nas-data/alim_workspace/deepseek/rag_pdf/envrag_langchain/lib/python3.12/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/nas-data/alim_workspace/deepseek/rag_pdf/envrag_langchain/lib/python3.12/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/nas-data/alim_workspace/deepseek/rag_pdf/envrag_langchain/lib/python3.12/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/nas-data/alim_workspace/deepseek/rag_pdf/envrag_langchain/lib/python3.12/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/nas-data/alim_workspace/deepseek/rag_pdf/app.py:23: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-chroma package and should be used instead. To use it run `pip install -U :class:`~langchain-chroma` and import as `from :class:`~langchain_chroma import Chroma``.
+  vectorstore = Chroma(collection_name="multi_modal_rag", embedding_function=embedding_function)
+/nas-data/alim_workspace/deepseek/rag_pdf/app.py:79: LangChainDeprecationWarning: The class `ChatOllama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import ChatOllama``.
+  | ChatOllama(model="llava:7b", temperature=0.4)
+INFO:     Started server process [3682789]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     192.168.0.13:33010 - "POST /ask/ HTTP/1.1" 200 OK
+INFO:     192.168.0.13:33018 - "POST /ask/ HTTP/1.1" 200 OK
+INFO:     192.168.0.13:50950 - "POST /ask/ HTTP/1.1" 200 OK
+INFO:     192.168.0.13:43492 - "POST /ask/ HTTP/1.1" 200 OK
+INFO:     192.168.0.13:33384 - "OPTIONS /ask/ HTTP/1.1" 200 OK
+INFO:     192.168.0.13:33388 - "POST /ask/ HTTP/1.1" 200 OK
