@@ -172,6 +172,6 @@ Output format (JSON):
 
 # === Run ===
 if __name__ == "__main__":
-    extract_path = "/home/alim/alim_workspace/deepseek/rag_pdf/content/2021-3-12-Handout-Med-Student.pdf"
+    extract_path = "./content/2021-3-12-Handout-Med-Student.pdf"
     text_chunks, image_data = extract_pdf_content(extract_path)
     generate_qa(text_chunks, image_data, total_q=50)
