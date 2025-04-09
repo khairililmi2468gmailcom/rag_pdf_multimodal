@@ -11,7 +11,7 @@ const ChatComponent = () => {
     setLoading(true);
     
     try {
-      const response = await axios.post("http://192.168.0.103:8080/ask/", {
+      const response = await axios.post("http://0.0.0.0:8080/ask/", {
         question,
       });
       
