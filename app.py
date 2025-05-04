@@ -2,21 +2,18 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
-import uvicorn
 from langchain.vectorstores import Chroma
 from langchain.storage import InMemoryStore
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.retrievers.multi_vector import MultiVectorRetriever
-from langchain.schema import Document 
+from langchain.schema import Document
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.chat_models import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
-
 from base64 import b64decode
-
-
+import uvicorn
 
 # ==== LangChain RAG Setup ====
 embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -35,10 +32,15 @@ def parse_docs(docs):
     b64, text = [], []
     for doc in docs:
         try:
+            # Try if it's base64 (assume image)
             b64decode(doc.page_content)
             b64.append(doc.page_content)
         except:
-            text.append(doc)
+            # Assume it's text-based document
+            if isinstance(doc, Document):
+                text.append(doc)
+            else:
+                text.append(Document(page_content=str(doc)))
     return {"images": b64, "texts": text}
 
 # Build prompt for multi-modal input
@@ -46,7 +48,8 @@ def build_prompt(kwargs):
     docs_by_type = kwargs["context"]
     user_question = kwargs["question"]
 
-    context_text = "\n".join([t.page_content for t in docs_by_type["texts"]])
+    # Extract text content safely
+    context_text = "\n".join([doc.page_content for doc in docs_by_type["texts"]])
 
     prompt_template = f"""
 Answer the question based only on the following context (text, tables, images).
@@ -57,7 +60,7 @@ Context:
 Question:
 {user_question}
 """
-    prompt_content = [{"type": "text", "text": prompt_template}]
+    prompt_content = [{"type": "text", "text": prompt_template.strip()}]
 
     for image in docs_by_type["images"]:
         prompt_content.append(
@@ -72,7 +75,7 @@ Question:
 # Define RAG pipeline
 rag_chain = (
     {
-        "context": retriever | RunnableLambda(parse_docs),
+        "context": RunnableLambda(lambda x: x["question"]) | retriever | RunnableLambda(parse_docs),
         "question": RunnablePassthrough(),
     }
     | RunnableLambda(build_prompt)
@@ -83,13 +86,13 @@ rag_chain = (
 # ==== FastAPI Setup ====
 app = FastAPI()
 
-# Add CORSMiddleware to allow cross-origin requests
+# CORS setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins, replace "*" with specific origins like ["http://localhost:3000"]
+    allow_origins=["*"],  # Ganti dengan asal frontend kalau perlu
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods (GET, POST, etc.)
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 class QueryRequest(BaseModel):
@@ -98,18 +101,20 @@ class QueryRequest(BaseModel):
 @app.post("/ask/")
 async def ask_rag(request: QueryRequest):
     try:
-        answer = rag_chain.invoke(request.question)
+        input_data = {"question": request.question}
+        print("Invoking with:", input_data)  # Tambahkan ini
+        answer = rag_chain.invoke(input_data)
+        print("Answer:", answer)  # Tambahkan ini
         return {"question": request.question, "answer": answer}
     except Exception as e:
+        import traceback
+        print("Exception in /ask:", traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/")
 def root():
     return {"message": "Multimodal RAG API is running!"}
+
 @app.options("/ask/")
 async def options():
     return {}
-    
-# Optional run with: python app.py
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8080, reload=True)
