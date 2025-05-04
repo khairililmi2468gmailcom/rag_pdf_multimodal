@@ -1,54 +1,102 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const ChatComponent = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
+  const [history, setHistory] = useState([]);
+const [currentQuestion, setCurrentQuestion] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    
-    try {
-      const response = await axios.post("http://0.0.0.0:8080/ask/", {
-        question,
-      });
-      
-      setAnswer(response.data.answer);
-    } catch (error) {
-      console.error("Error fetching data: ", error);
-      setAnswer("Sorry, there was an error while processing your request.");
+  useEffect(() => {
+    const savedHistory = localStorage.getItem("chatHistory");
+    if (savedHistory) {
+      setHistory(JSON.parse(savedHistory));
     }
+  }, []);
 
-    setLoading(false);
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+  setLoading(true);
+
+  const q = question;
+  setCurrentQuestion(q); // Simpan pertanyaan terakhir yang ditampilkan
+
+  try {
+    const response = await axios.post("http://192.168.0.103:7000/ask/", {
+      question: q,
+    });
+
+    const newAnswer = response.data.answer;
+    setAnswer(newAnswer);
+
+    const newHistoryItem = { question: q, answer: newAnswer };
+    const updatedHistory = [...history, newHistoryItem];
+
+    setHistory(updatedHistory);
+    localStorage.setItem("chatHistory", JSON.stringify(updatedHistory));
+  } catch (error) {
+    console.error("Error fetching data: ", error);
+    setAnswer("Sorry, an error occurred while processing your inquiry.");
+  }
+
+  setQuestion(""); // Kosongkan input field
+  setLoading(false);
+};
+
+
+
+  const handleHistoryClick = (item) => {
+    setQuestion(item.question);
+    setAnswer(item.answer);
   };
 
   return (
     <div style={styles.container}>
-      <div style={styles.chatContainer}>
-        <div style={styles.chatHeader}>Chat with AI</div>
+      <div style={styles.chatBox}>
+        <h2 style={styles.header}>💬 Chat Assistant Based RAG</h2>
+
         <div style={styles.messages}>
-          <div style={styles.userMessage}>
-            <strong>Your Question: </strong>{question}
-          </div>
-          <div style={styles.aiMessage}>
-            <strong>RAG Answer: </strong>{answer}
-          </div>
+          {answer && (
+              <>
+                <div style={styles.userBubble}>
+                  <strong>Question:</strong> {currentQuestion}
+                </div>
+                <div style={styles.aiBubble}>
+                  <strong>Answer:</strong> {answer}
+                </div>
+              </>
+            )}
+
         </div>
+
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="text"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="Ask a question..."
+            placeholder="Enter your question..."
             style={styles.input}
             required
           />
           <button type="submit" style={styles.button} disabled={loading}>
-            {loading ? "Loading..." : "Send"}
+            {loading ? "⏳..." : "Send"}
           </button>
         </form>
+
+        <div style={styles.historyContainer}>
+          <h4 style={styles.historyTitle}>Chat History</h4>
+          {[...history].reverse().map((item, index) => (
+            <div
+              key={index}
+              style={styles.historyItem}
+              onClick={() => handleHistoryClick(item)}
+            >
+              <div style={styles.historyQ}><strong>Q:</strong> {item.question}</div>
+              <div style={styles.historyA}><strong>A:</strong> {item.answer}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -56,64 +104,92 @@ const ChatComponent = () => {
 
 const styles = {
   container: {
+    fontFamily: "'Segoe UI', sans-serif",
+    backgroundColor: "#f5f7fb",
+    minHeight: "100vh",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
-    height: "100vh",
-    backgroundColor: "#f0f0f0",
+    paddingTop: "40px",
   },
-  chatContainer: {
-    width: "400px",
-    padding: "20px",
-    backgroundColor: "white",
-    borderRadius: "8px",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+  chatBox: {
+    width: "100%",
+    maxWidth: "600px",
+    backgroundColor: "#fff",
+    borderRadius: "12px",
+    boxShadow: "0 4px 20px rgba(0, 0, 0, 0.08)",
+    padding: "30px",
+  },
+  header: {
     textAlign: "center",
-  },
-  chatHeader: {
-    fontSize: "24px",
+    fontWeight: "600",
+    fontSize: "22px",
     marginBottom: "20px",
-    color: "#333",
+    color: "#1a1a1a",
   },
   messages: {
-    textAlign: "left",
     marginBottom: "20px",
-    minHeight: "100px",
     fontSize: "16px",
-    color: "#555",
   },
-  userMessage: {
-    backgroundColor: "#e8f4f8",
-    padding: "10px",
+  userBubble: {
+    backgroundColor: "#e0f2fe",
+    padding: "12px 16px",
     borderRadius: "8px",
     marginBottom: "10px",
   },
-  aiMessage: {
-    backgroundColor: "#e0f7fa",
-    padding: "10px",
+  aiBubble: {
+    backgroundColor: "#f0fdf4",
+    padding: "12px 16px",
     borderRadius: "8px",
-    marginBottom: "10px",
   },
   form: {
     display: "flex",
-    justifyContent: "space-between",
+    gap: "10px",
+    marginBottom: "30px",
   },
   input: {
-    width: "80%",
-    padding: "10px",
-    borderRadius: "4px",
-    border: "1px solid #ddd",
+    flexGrow: 1,
+    padding: "12px 16px",
+    borderRadius: "8px",
+    border: "1px solid #ccc",
     fontSize: "16px",
   },
   button: {
-    padding: "10px 20px",
-    backgroundColor: "#007bff",
-    color: "white",
+    backgroundColor: "#2563eb",
+    color: "#fff",
     border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
+    padding: "12px 20px",
     fontSize: "16px",
-    transition: "background-color 0.3s",
+    borderRadius: "8px",
+    cursor: "pointer",
+    transition: "background 0.3s",
+  },
+  historyContainer: {
+    borderTop: "1px solid #ddd",
+    paddingTop: "20px",
+  },
+  historyTitle: {
+    fontSize: "18px",
+    marginBottom: "12px",
+    color: "#333",
+  },
+  historyItem: {
+    backgroundColor: "#f9fafb",
+    border: "1px solid #e2e8f0",
+    borderRadius: "8px",
+    padding: "12px",
+    marginBottom: "12px",
+    cursor: "pointer",
+    transition: "background 0.2s ease",
+  },
+  historyItemHover: {
+    backgroundColor: "#edf2f7",
+  },
+  historyQ: {
+    fontWeight: "500",
+    marginBottom: "4px",
+  },
+  historyA: {
+    color: "#555",
   },
 };
 
